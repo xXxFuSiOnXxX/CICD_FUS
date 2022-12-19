@@ -19,6 +19,7 @@ TEST_CASE("minus test") {
 }
 
 TEST_CASE("multiply test") {
+
     CHECK(cmultiply(2, 2) == 4);
     CHECK(cmultiply(-2, -2) == 4);
     CHECK(cmultiply(2, -2) == -4);
